@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.2",
+
+  "name": "ShoppingTool",
+  "description": "Let's go shopping",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "clock128.png",
+    "icons": {  
+      "128": "clock128.png",
+      "48":"clock48.png" }
+  },
+  "permissions": ["tabs","background"],
+  "background" : {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'"
+
+}
