@@ -7,11 +7,13 @@
   </title>
   <link href="./index.css" rel="stylesheet" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./utility.js"></script>
   <script src="./index.js"></script>
 </head>
 
 <body>
-<div class="fx-row fx-padding-10">
+<!--這些是舊的範例 
+  <div class="fx-row fx-padding-10">
   <div class="fx-tab-container fx-card fx-col-md-3">
     <div class="fx-tabs fx-title fx-row fx-justify-center">
       <a fx-tab-trigger="tab1" class="fx-tab segmented-tab fx-active">This</a>
@@ -20,47 +22,48 @@
       <div class="fx-tab-content fx-show" fx-tab="tab1">Content for the first tab in the demo</div>
     <div class="fx-tab-content" fx-tab="tab2">Content for the second tab in the demo</div>
   </div>
-</div>
-<div class="fx-row fx-padding-10">
-<div class="fx-card fx-vertical-form fx-col-md-3">
-  <div class="fx-title">
-    Toggles
+</div> -->
+<!-- <div class="fx-row fx-padding-10">
+
+  <div class="fx-card fx-vertical-form fx-col-md-3">
+    <div class="fx-title">
+      Toggles
+    </div>
+    <label class="fx-switch">
+      Switch 1
+      <input type="checkbox" />
+      <span></span>
+    </label>
+    <label class="fx-switch">
+      Switch 2
+      <input type="checkbox" />
+      <span></span>
+    </label>
+    <label class="fx-checkbox">
+      
+      <input type="checkbox" />
+      <span></span>
+      Checkbox 1
+    </label>
+    <label class="fx-checkbox">
+      
+      <input type="checkbox" />
+      <span></span>
+      Checkbox 2
+    </label>
+    <label class="fx-radio">
+      
+      <input type="radio"  name="demoradio"/>
+      <span></span>
+      Radio 1
+    </label>
+    <label class="fx-radio">
+      
+      <input type="radio" name="demoradio" />
+      <span></span>
+      Radio 2
+    </label>
   </div>
-  <label class="fx-switch">
-    Switch 1
-    <input type="checkbox" />
-    <span></span>
-  </label>
-  <label class="fx-switch">
-    Switch 2
-    <input type="checkbox" />
-    <span></span>
-  </label>
-   <label class="fx-checkbox">
-    
-    <input type="checkbox" />
-    <span></span>
-     Checkbox 1
-  </label>
-   <label class="fx-checkbox">
-    
-    <input type="checkbox" />
-    <span></span>
-     Checkbox 2
-  </label>
-  <label class="fx-radio">
-    
-    <input type="radio"  name="demoradio"/>
-    <span></span>
-     Radio 1
-  </label>
-  <label class="fx-radio">
-    
-    <input type="radio" name="demoradio" />
-    <span></span>
-     Radio 2
-  </label>
-</div>
   <div class="fx-card fx-margin-left-6 fx-col-md-3">
     <div class="fx-title">
       Select
@@ -88,16 +91,76 @@
       Open Popup
     </button>
   </div>
-</div>
-<div class="fx-popup-overlay"></div>
-<div id="popup1" class="fx-popup">
-    <div class="fx-title fx-row fx-justify-space-between">
-      <h3>A Popup</h3>
-      <a class="fx-popup-close fx-close-button">
-        <i class="fas fa-times"></i>
-      </a>
+</div> -->
+<div class="fx-row fx-padding-10">
+  <div class="fx-card fx-col-md-3">
+    <div class="fx-title">
+      Exchange Rate
     </div>
-  <p>This is nothing else but a simple popup</p>
+    <div class="fx-vertical-form">
+      <div class="fx-select fx-field">
+        <input disabled placeholder="Select currency" type="text" class="fx-select-selected" id="Currency" />          
+        <div class="fx-select-list">
+          <a class="fx-select-option">
+           USD
+          </a>
+          <a class="fx-select-option">
+           JPY
+          </a>
+          <a class="fx-select-option">
+            CNY
+           </a>
+          <a class="fx-select-option">
+           EUR
+          </a>
+          <a class="fx-select-option">
+            HKD
+           </a>
+           <a class="fx-select-option">
+            GBP
+           </a>
+           <a class="fx-select-option">
+            AUD
+           </a>
+           <a class="fx-select-option">
+            CAD
+           </a>
+           <a class="fx-select-option">
+            KRW
+           </a>
+        </div>
+      </div>
+      <input type="text" id="price" name="price"><br><br>
+      <button class=".fx-flat-button" id="calculateExchangeRateBtn">
+        Calculate
+      </button>
+    </div>
+    
+  </div>
+  <div class="fx-card fx-margin-left-6 fx-col-md-3">
+    <div class="fx-title">
+      Length Calulater
+    </div>
+    <div class="fx-form">
+      <input type="text" id="ft" class="fx-justify-left" placeholder="ft">
+      <input type="text" id="inch" class="fx-justify-left" placeholder="inch">
+      <button class=".fx-flat-button" id="calculateLenght">
+        Calculate
+      </button>
+    </div>
+  </div>
+  <div class="fx-card fx-margin-left-6 fx-col-md-3">
+    <div class="fx-title">
+      Weight Calulater
+    </div>
+    <div class="fx-form">
+      <input type="text" id="pound" class="fx-justify-left" placeholder="pound">
+      <input type="text" id="once" class="fx-justify-left" placeholder="once">
+      <button class=".fx-flat-button" id="calculateWeight">
+        Calculate
+      </button>
+    </div>
+  </div>
 </div>
 </body>
 <html>
