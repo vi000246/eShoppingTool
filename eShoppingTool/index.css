@@ -62,8 +62,8 @@ body{
     background-color: #f2f4f6;
     background-repeat:  no-repeat;
     background-size: cover;
-	width:1000px;
-	height:1000px;
+    width:700px;
+    height:200px;
 }
 *{
     box-sizing: border-box;
@@ -2401,70 +2401,3 @@ html[dir="rtl"] .fx-margin-right-15{
 
 }
 
-/* **************** ICON LIBRARY **************** */
-/**
-.fx-fashion-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M31,33V15H29V0H28C18.1,0,18,7.8,18,7.8V15H16V33H14V48H33V33H31ZM20,7.8c0-.2.1-5,7-5.5V15H20V7.8ZM18,17H29v5H18V17Zm0,7H29v9H18V24ZM31,46H16V35H31V46Z'/></g></svg>");
-
-    mask:url("data:image/svg+xml;utf8,<svg  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M31,33V15H29V0H28C18.1,0,18,7.8,18,7.8V15H16V33H14V48H33V33H31ZM20,7.8c0-.2.1-5,7-5.5V15H20V7.8ZM18,17H29v5H18V17Zm0,7H29v9H18V24ZM31,46H16V35H31V46Z'/></g></svg>");
-    background-color: #000000;
-}
-.fx-comp-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-laptop' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M45,33V7H3V33H0v8H48V33H45ZM5,9H43V33H41V11H7V33H5V9ZM39,33H9V13H39V33Zm7,6H2V35H46v4Z'/></g></svg>");
-
-    mask:url("data:image/svg+xml;utf8,<svg id='as-svg-laptop' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M45,33V7H3V33H0v8H48V33H45ZM5,9H43V33H41V11H7V33H5V9ZM39,33H9V13H39V33Zm7,6H2V35H46v4Z'/></g></svg>");
-    background-color: #000000;
-}
-.fx-phones-acc-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><g id='_Group_' data-name='&lt;Group&gt;'><g id='_Group_2' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M9,0V48H36V0H9ZM34,2V8H11V2H34Zm0,8V38H11V10H34ZM11,46V40H34v6H11Z'/></g><g id='_Group_3' data-name='&lt;Group&gt;'><rect id='_Path_' data-name='&lt;Path&gt;' x='19' y='4' width='7' height='2'/></g><g id='_Group_4' data-name='&lt;Group&gt;'><circle id='_Path_2' data-name='&lt;Path&gt;' cx='22' cy='43' r='2'/></g></g></svg>");
-
-    mask:url("data:image/svg+xml;utf8,<svg  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><g id='_Group_' data-name='&lt;Group&gt;'><g id='_Group_2' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M9,0V48H36V0H9ZM34,2V8H11V2H34Zm0,8V38H11V10H34ZM11,46V40H34v6H11Z'/></g><g id='_Group_3' data-name='&lt;Group&gt;'><rect id='_Path_' data-name='&lt;Path&gt;' x='19' y='4' width='7' height='2'/></g><g id='_Group_4' data-name='&lt;Group&gt;'><circle id='_Path_2' data-name='&lt;Path&gt;' cx='22' cy='43' r='2'/></g></g></svg>");
-    background-color: #000000;
-}
-.fx-consumer-el-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-headphones' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M12.5,30a4.9,4.9,0,0,0-2-3.1,2.5,2.5,0,0,0-2-.3L6.9,27c-1.7.4-2.5,2.6-2,4.9l2.4,9.7a4.9,4.9,0,0,0,2,3.1,2.7,2.7,0,0,0,1.4.4h0.6l1.6-.4c1.7-.4,2.5-2.6,2-4.9ZM12.3,42.6l-1.6.4H10.3a3,3,0,0,1-1.1-1.8L6.8,31.4c-0.3-1.3.1-2.4,0.5-2.5L9,28.5H9.4a3,3,0,0,1,1.1,1.8l2.4,9.7C13.2,41.5,12.8,42.5,12.3,42.6Z'/><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M41.1,27l-1.6-.4a2.5,2.5,0,0,0-2,.3,4.9,4.9,0,0,0-2,3.1l-2.4,9.7c-0.6,2.3.3,4.5,2,4.9L36.7,45h0.6a2.7,2.7,0,0,0,1.4-.4,4.9,4.9,0,0,0,2-3.1l2.4-9.7C43.7,29.6,42.8,27.5,41.1,27Zm0,4.4-2.4,9.7a3,3,0,0,1-1.1,1.8H37.2l-1.6-.4c-0.4-.1-0.8-1.2-0.5-2.5l2.4-9.7a3,3,0,0,1,1.1-1.8H39L40.6,29C41.1,29.1,41.5,30.1,41.2,31.4Z'/><path id='_Path_' data-name='&lt;Path&gt;' d='M47.8,23.9C47.7,22.6,45.4,3,24,3S0.3,22.6.2,23.9A28.9,28.9,0,0,0,1.8,37.3l1.9-.7A27.2,27.2,0,0,1,2.2,24.2h0C2.3,23.3,3.8,5,24,5S45.7,23.3,45.8,24.1h0a27.2,27.2,0,0,1-1.5,12.5l1.9,0.7A28.9,28.9,0,0,0,47.8,23.9Z'/></g></svg>");
-
-    mask:url("<svg id='as-svg-headphones' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M12.5,30a4.9,4.9,0,0,0-2-3.1,2.5,2.5,0,0,0-2-.3L6.9,27c-1.7.4-2.5,2.6-2,4.9l2.4,9.7a4.9,4.9,0,0,0,2,3.1,2.7,2.7,0,0,0,1.4.4h0.6l1.6-.4c1.7-.4,2.5-2.6,2-4.9ZM12.3,42.6l-1.6.4H10.3a3,3,0,0,1-1.1-1.8L6.8,31.4c-0.3-1.3.1-2.4,0.5-2.5L9,28.5H9.4a3,3,0,0,1,1.1,1.8l2.4,9.7C13.2,41.5,12.8,42.5,12.3,42.6Z'/><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M41.1,27l-1.6-.4a2.5,2.5,0,0,0-2,.3,4.9,4.9,0,0,0-2,3.1l-2.4,9.7c-0.6,2.3.3,4.5,2,4.9L36.7,45h0.6a2.7,2.7,0,0,0,1.4-.4,4.9,4.9,0,0,0,2-3.1l2.4-9.7C43.7,29.6,42.8,27.5,41.1,27Zm0,4.4-2.4,9.7a3,3,0,0,1-1.1,1.8H37.2l-1.6-.4c-0.4-.1-0.8-1.2-0.5-2.5l2.4-9.7a3,3,0,0,1,1.1-1.8H39L40.6,29C41.1,29.1,41.5,30.1,41.2,31.4Z'/><path id='_Path_' data-name='&lt;Path&gt;' d='M47.8,23.9C47.7,22.6,45.4,3,24,3S0.3,22.6.2,23.9A28.9,28.9,0,0,0,1.8,37.3l1.9-.7A27.2,27.2,0,0,1,2.2,24.2h0C2.3,23.3,3.8,5,24,5S45.7,23.3,45.8,24.1h0a27.2,27.2,0,0,1-1.5,12.5l1.9,0.7A28.9,28.9,0,0,0,47.8,23.9Z'/></g></svg>");
-    background-color: #000000;
-}
-.fx-toys-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M34.1,16H34V12c0-2.6-1.5-4.4-2.9-5.9L29.5,4l-0.3-.4-0.5-.7A4.9,4.9,0,0,0,24,.1a4.8,4.8,0,0,0-4.7,2.8l-0.5.7L18.5,4,16.9,6.1C15.5,7.6,14,9.4,14,12v4H13.9A1.9,1.9,0,0,0,12,17.9V46.1A1.9,1.9,0,0,0,13.9,48H34.1A1.9,1.9,0,0,0,36,46.1V17.9A1.9,1.9,0,0,0,34.1,16ZM18.3,7.5a17.7,17.7,0,0,0,1.8-2.3l0.3-.4L21,3.9c0.7-1.1,1.1-1.8,3-1.8s2.3,0.7,3,1.9l0.6,0.8,0.3,0.4a17.7,17.7,0,0,0,1.8,2.3A7.7,7.7,0,0,1,31.9,11H16.1A7.7,7.7,0,0,1,18.3,7.5ZM16,13H32v3H16V13ZM34,25H26v2h8v2H30v2h4v2H26v2h8v2H30v2h4v7H14V18H34v7Z'/></svg>");
-
-    mask:url("data:image/svg+xml;utf8,<svg  xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M34.1,16H34V12c0-2.6-1.5-4.4-2.9-5.9L29.5,4l-0.3-.4-0.5-.7A4.9,4.9,0,0,0,24,.1a4.8,4.8,0,0,0-4.7,2.8l-0.5.7L18.5,4,16.9,6.1C15.5,7.6,14,9.4,14,12v4H13.9A1.9,1.9,0,0,0,12,17.9V46.1A1.9,1.9,0,0,0,13.9,48H34.1A1.9,1.9,0,0,0,36,46.1V17.9A1.9,1.9,0,0,0,34.1,16ZM18.3,7.5a17.7,17.7,0,0,0,1.8-2.3l0.3-.4L21,3.9c0.7-1.1,1.1-1.8,3-1.8s2.3,0.7,3,1.9l0.6,0.8,0.3,0.4a17.7,17.7,0,0,0,1.8,2.3A7.7,7.7,0,0,1,31.9,11H16.1A7.7,7.7,0,0,1,18.3,7.5ZM16,13H32v3H16V13ZM34,25H26v2h8v2H30v2h4v2H26v2h8v2H30v2h4v7H14V18H34v7Z'/></svg>");
-    background-color: #000000;
-}
-.fx-home-impr-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-home_improvement' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M38.5,20.2L45,15.8V10H11v1H5v6H0v2H5v6h6v1H21.5c0.7,1.9,2.5,6,9.5,6l5.4,8H48.5ZM11,23H7V21h4v2Zm0-4H7V17h4v2Zm0-4H7V13h4v2Zm11,9H13V12H25V24H22Zm9,6c-5-.3-6.6-2.6-7.3-4H31v4Zm0-6H27V12h4V23h0v1Zm2,5.7V25.6L32.7,12H43v2.8l-7,4.8L45.2,38H37.6Z'/></svg>");
-    mask: url("data:image/svg+xml;utf8,<svg id='as-svg-home_improvement' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M38.5,20.2L45,15.8V10H11v1H5v6H0v2H5v6h6v1H21.5c0.7,1.9,2.5,6,9.5,6l5.4,8H48.5ZM11,23H7V21h4v2Zm0-4H7V17h4v2Zm0-4H7V13h4v2Zm11,9H13V12H25V24H22Zm9,6c-5-.3-6.6-2.6-7.3-4H31v4Zm0-6H27V12h4V23h0v1Zm2,5.7V25.6L32.7,12H43v2.8l-7,4.8L45.2,38H37.6Z'/></svg>");
-    background-color: #000000;
-}
-.fx-sports-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-bascket_ball' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M48,23A23.9,23.9,0,0,0,42.7,9L41.1,7.2A23.9,23.9,0,0,0,25,0H23A24,24,0,0,0,0,24c0,0.7,0,1.3.1,2A23.9,23.9,0,0,0,7.2,41.1L9,42.7a23.9,23.9,0,0,0,13,5.2h2A24,24,0,0,0,48,25c0-.3,0-0.6,0-1S48,23.3,48,23Zm-2,0a22,22,0,0,1-17-9.4A39.1,39.1,0,0,1,40.4,9.4,21.9,21.9,0,0,1,46,23ZM38.7,7.7a41.1,41.1,0,0,0-10.9,4.2A21.8,21.8,0,0,1,25,2,21.9,21.9,0,0,1,38.7,7.7ZM2,24A22,22,0,0,1,23,2a23.8,23.8,0,0,0,3.1,10.9,41.7,41.7,0,0,0-14,14.5A23.8,23.8,0,0,0,2,24.1H2Zm0.1,2.1a21.8,21.8,0,0,1,9.1,3,41.1,41.1,0,0,0-3.5,9.7A21.9,21.9,0,0,1,2.1,26.1ZM9.4,40.4a39.1,39.1,0,0,1,3.5-10.2,22,22,0,0,1,9,15.7A21.9,21.9,0,0,1,9.4,40.4ZM24,46H23.9A24,24,0,0,0,13.9,28.4,39.7,39.7,0,0,1,27.2,14.6,24,24,0,0,0,46,25,22,22,0,0,1,24,46Z'/></svg>");
-
-    mask:url("data:image/svg+xml;utf8,<svg id='as-svg-bascket_ball' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M48,23A23.9,23.9,0,0,0,42.7,9L41.1,7.2A23.9,23.9,0,0,0,25,0H23A24,24,0,0,0,0,24c0,0.7,0,1.3.1,2A23.9,23.9,0,0,0,7.2,41.1L9,42.7a23.9,23.9,0,0,0,13,5.2h2A24,24,0,0,0,48,25c0-.3,0-0.6,0-1S48,23.3,48,23Zm-2,0a22,22,0,0,1-17-9.4A39.1,39.1,0,0,1,40.4,9.4,21.9,21.9,0,0,1,46,23ZM38.7,7.7a41.1,41.1,0,0,0-10.9,4.2A21.8,21.8,0,0,1,25,2,21.9,21.9,0,0,1,38.7,7.7ZM2,24A22,22,0,0,1,23,2a23.8,23.8,0,0,0,3.1,10.9,41.7,41.7,0,0,0-14,14.5A23.8,23.8,0,0,0,2,24.1H2Zm0.1,2.1a21.8,21.8,0,0,1,9.1,3,41.1,41.1,0,0,0-3.5,9.7A21.9,21.9,0,0,1,2.1,26.1ZM9.4,40.4a39.1,39.1,0,0,1,3.5-10.2,22,22,0,0,1,9,15.7A21.9,21.9,0,0,1,9.4,40.4ZM24,46H23.9A24,24,0,0,0,13.9,28.4,39.7,39.7,0,0,1,27.2,14.6,24,24,0,0,0,46,25,22,22,0,0,1,24,46Z'/></svg>");
-    background-color: #000000;
-}
-.fx-cars-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-car' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M32.2,10H14.2L9.1,21H0V33H4.8a5.8,5.8,0,0,0,11.5,0h12a5.8,5.8,0,0,0,11.5,0H43V21H35.9ZM23,12h7.8l3,9H23V12Zm-7.6,0H21v9H11.3ZM10.5,36a3.8,3.8,0,0,1-3.8-3.7V31.9A4.7,4.7,0,0,1,8.5,29a3.7,3.7,0,0,1,4,0,4.5,4.5,0,0,1,1.7,2.8v0.4A3.8,3.8,0,0,1,10.5,36ZM34,36a3.8,3.8,0,0,1-3.8-3.7V31.9A4.7,4.7,0,0,1,32,29a3.7,3.7,0,0,1,4,0,4.5,4.5,0,0,1,1.7,2.8v0.4A3.8,3.8,0,0,1,34,36Zm7-13v8H39.6a5.8,5.8,0,0,0-11.3,0H16.2c-0.6-2.6-2.4-5-5.2-5a6.8,6.8,0,0,0-6.2,5H2V23H41Z'/><rect id='_Path_' data-name='&lt;Path&gt;' x='46' y='21' width='2' height='12'/></g></svg>");
-    mask:url("data:image/svg+xml;utf8,<svg id='as-svg-car' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M32.2,10H14.2L9.1,21H0V33H4.8a5.8,5.8,0,0,0,11.5,0h12a5.8,5.8,0,0,0,11.5,0H43V21H35.9ZM23,12h7.8l3,9H23V12Zm-7.6,0H21v9H11.3ZM10.5,36a3.8,3.8,0,0,1-3.8-3.7V31.9A4.7,4.7,0,0,1,8.5,29a3.7,3.7,0,0,1,4,0,4.5,4.5,0,0,1,1.7,2.8v0.4A3.8,3.8,0,0,1,10.5,36ZM34,36a3.8,3.8,0,0,1-3.8-3.7V31.9A4.7,4.7,0,0,1,32,29a3.7,3.7,0,0,1,4,0,4.5,4.5,0,0,1,1.7,2.8v0.4A3.8,3.8,0,0,1,34,36Zm7-13v8H39.6a5.8,5.8,0,0,0-11.3,0H16.2c-0.6-2.6-2.4-5-5.2-5a6.8,6.8,0,0,0-6.2,5H2V23H41Z'/><rect id='_Path_' data-name='&lt;Path&gt;' x='46' y='21' width='2' height='12'/></g></svg>");
-    background-color: #000000;
-}
-.fa-cutlery{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-cutlery' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M22,13H17V0H15V13H11V0H9V13.6c0,0.2,0,3.8,2.1,5.9A4.4,4.4,0,0,0,13,20.8V48h7V20.8a4.6,4.6,0,0,0,1.8-1.2c2.1-2.1,2.2-5.8,2.2-5.9V0H22V13Zm-4,8V46H15V21h3Zm2.4-2.9a3.1,3.1,0,0,1-2,.9H14.6a3.2,3.2,0,0,1-2-.9A6.2,6.2,0,0,1,11.1,15H21.8A6.1,6.1,0,0,1,20.4,18.1Z'/><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M39,0C29.3,0,28,25,28,28v1h5V48h7V0H39ZM38,46H35V29h3V46Zm0-19H30c0.3-7.4,2.5-23.2,8-25V27Z'/></g></svg>");
-    mask:url("data:image/svg+xml;utf8,<svg id='as-svg-cutlery' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M22,13H17V0H15V13H11V0H9V13.6c0,0.2,0,3.8,2.1,5.9A4.4,4.4,0,0,0,13,20.8V48h7V20.8a4.6,4.6,0,0,0,1.8-1.2c2.1-2.1,2.2-5.8,2.2-5.9V0H22V13Zm-4,8V46H15V21h3Zm2.4-2.9a3.1,3.1,0,0,1-2,.9H14.6a3.2,3.2,0,0,1-2-.9A6.2,6.2,0,0,1,11.1,15H21.8A6.1,6.1,0,0,1,20.4,18.1Z'/><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M39,0C29.3,0,28,25,28,28v1h5V48h7V0H39ZM38,46H35V29h3V46Zm0-19H30c0.3-7.4,2.5-23.2,8-25V27Z'/></g></svg>");
-    background-color: #000000;
-}
-.fa-ellipsis-v{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-others' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><g id='_Group_2' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M24,12a6,6,0,1,0-6-6A6,6,0,0,0,24,12ZM24,2a4,4,0,1,1-4,4A4,4,0,0,1,24,2Z'/></g><g id='_Group_3' data-name='&lt;Group&gt;'><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M24,18a6,6,0,1,0,6,6A6,6,0,0,0,24,18Zm0,10a4,4,0,1,1,4-4A4,4,0,0,1,24,28Z'/></g><g id='_Group_4' data-name='&lt;Group&gt;'><path id='_Compound_Path_3' data-name='&lt;Compound Path&gt;' d='M24,36a6,6,0,1,0,6,6A6,6,0,0,0,24,36Zm0,10a4,4,0,1,1,4-4A4,4,0,0,1,24,46Z'/></g></g></svg>");
-
-    mask:url("data:image/svg+xml;utf8,<svg id='as-svg-others' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><g id='_Group_2' data-name='&lt;Group&gt;'><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M24,12a6,6,0,1,0-6-6A6,6,0,0,0,24,12ZM24,2a4,4,0,1,1-4,4A4,4,0,0,1,24,2Z'/></g><g id='_Group_3' data-name='&lt;Group&gt;'><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M24,18a6,6,0,1,0,6,6A6,6,0,0,0,24,18Zm0,10a4,4,0,1,1,4-4A4,4,0,0,1,24,28Z'/></g><g id='_Group_4' data-name='&lt;Group&gt;'><path id='_Compound_Path_3' data-name='&lt;Compound Path&gt;' d='M24,36a6,6,0,1,0,6,6A6,6,0,0,0,24,36Zm0,10a4,4,0,1,1,4-4A4,4,0,0,1,24,46Z'/></g></g></svg>");
-    background-color: #000000;
-}
-.fx-shopping_cart-icon{
-    -webkit-mask:url("data:image/svg+xml;utf8,<svg id='as-svg-shopping_cart' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><polygon id='_Path_' data-name='&lt;Path&gt;' points='46 14 45 14 20 14 20 16 45 16 43 20 24 20 24 22 42 22 39 30 15 30 10 10 9 10 7 10 0 10 0 12 7 12 13 32 14 32 16 32 38 32 40 32 41 32 48 14.1 46 14'/><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M18,34.5A4.5,4.5,0,1,0,22.5,39,4.5,4.5,0,0,0,18,34.5Zm0,6.8A2.3,2.3,0,1,1,20.3,39,2.3,2.3,0,0,1,18,41.3Z'/><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M36,34.5a4.6,4.6,0,0,0-4.5,4.6,4.5,4.5,0,0,0,9,0A4.6,4.6,0,0,0,36,34.5Zm0,6.7a2.1,2.1,0,0,1-2.2-2.1,2.3,2.3,0,1,1,4.5,0A2.1,2.1,0,0,1,36,41.2Z'/></g></svg>");
-    mask:url("data:image/svg+xml;utf8,<svg id='as-svg-shopping_cart' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><title>as-svg</title><g id='_Group_' data-name='&lt;Group&gt;'><polygon id='_Path_' data-name='&lt;Path&gt;' points='46 14 45 14 20 14 20 16 45 16 43 20 24 20 24 22 42 22 39 30 15 30 10 10 9 10 7 10 0 10 0 12 7 12 13 32 14 32 16 32 38 32 40 32 41 32 48 14.1 46 14'/><path id='_Compound_Path_' data-name='&lt;Compound Path&gt;' d='M18,34.5A4.5,4.5,0,1,0,22.5,39,4.5,4.5,0,0,0,18,34.5Zm0,6.8A2.3,2.3,0,1,1,20.3,39,2.3,2.3,0,0,1,18,41.3Z'/><path id='_Compound_Path_2' data-name='&lt;Compound Path&gt;' d='M36,34.5a4.6,4.6,0,0,0-4.5,4.6,4.5,4.5,0,0,0,9,0A4.6,4.6,0,0,0,36,34.5Zm0,6.7a2.1,2.1,0,0,1-2.2-2.1,2.3,2.3,0,1,1,4.5,0A2.1,2.1,0,0,1,36,41.2Z'/></g></svg>");
-    background: #000000;
-}
-
-
-**/
