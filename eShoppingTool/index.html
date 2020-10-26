@@ -167,6 +167,18 @@
     </div>
     <div class="fx-form">
       <div class="fx-select fx-field">
+        <input disabled placeholder="Choose Sex" type="text" class="fx-select-selected" id="shoesSex" value="Men"/>          
+        <div class="fx-select-list">
+          <a class="fx-select-option">
+            Men
+          </a>
+          <a class="fx-select-option">
+            Women
+            </a>
+        </div>
+      </div>
+      <input type="text" id="shoesSize" class="fx-justify-left" placeholder="shoesSizeFrom">
+      <div class="fx-select fx-field">
         <input disabled placeholder="From" type="text" class="fx-select-selected" id="shoesFrom" />          
         <div class="fx-select-list">
           <a class="fx-select-option">
@@ -186,6 +198,7 @@
            </a>
         </div>
       </div>
+      <input type="text" id="shoesSize" class="fx-justify-left" placeholder="shoesSizeTo">
       <div class="fx-select fx-field">
         <input disabled placeholder="To" type="text" class="fx-select-selected" id="shoesTo" />          
         <div class="fx-select-list">
@@ -206,7 +219,7 @@
             </a>
         </div>
       </div>
-        <input type="text" id="shoesSize" class="fx-justify-left" placeholder="shoesSize">
+        
       <button class=".fx-flat-button" id="calculateShoesSize">
         Calculate
       </button>
