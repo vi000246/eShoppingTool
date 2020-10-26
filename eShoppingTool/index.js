@@ -1,12 +1,27 @@
 $(function(){
     getExchangeRate();
     //查匯率
-    $("#calculateExchangeRateBtn").click(function() {
-        var currency = $("#Currency").val();
-        var price = $("#price").val()
-        
+    $("#price").keyup(function() {
+        calculateExchangeRate();
     });
+    //change事件好像監聽不到
+    // $("#Currency").on('change', function() { 
+    //     calculateExchangeRate();
+    // });
 });
+
+function calculateExchangeRate(){
+    var currency = $("#Currency").val();
+    var price = $("#price").val();
+    var rate = window.currencyMap.get(currency.trim());
+    console.log(rate+" "+price)
+    if(rate && !isNaN(price)){
+        var answer = parseFloat(price) * parseFloat(rate);
+        answer = Math.round(answer * 10) / 10;
+        //add comma to answer
+        $("#exchangeRateResult").html(answer.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+    }
+}
 
 function getExchangeRate(){
     $.ajax({
@@ -14,7 +29,7 @@ function getExchangeRate(){
         url: 'https://rate.bot.com.tw/xrt',
         success: function (data) {
             var html = new DOMParser().parseFromString(data, "text/html");
-            var currencyMap = new Map();
+            window.currencyMap = new Map();
             $(".table  tr",html).each(function(i,obj) {
                 //找出幣別
                 var currency = $(obj).find("td.currency > div > div:eq(2)").text().trim();
@@ -22,14 +37,16 @@ function getExchangeRate(){
                     //找出匯率
                     var rate = $($(obj).find("td.rate-content-cash")[0]).text();
                     if(rate && !isNaN(rate)){
-                        currencyMap.set(currency,rate);
+                        //取出幣別括號裡的英文簡寫 ex.USD TWD
+                        var shortName = currency.match(/\((\w+)\)/);
+                        window.currencyMap.set(shortName[1],rate);
                     }
                 }
                 
                 
             });
             //將找到的幣別跟匯率存進map
-            console.log(currencyMap);
+            console.log(window.currencyMap);
         },
         error: function (xhr, ajaxOptions, thrownError) {
             console.log('xHR: ' + xhr);
