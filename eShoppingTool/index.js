@@ -34,7 +34,6 @@ function calculateLength(){
         $("#ft").prop('disabled', true);
         var arr = inch.split(',');
         var answer = "";
-        console.log(arr);
         for (let i = 0; i < arr.length; ++i) {
             answer += ((parseFloat(arr[i])|| 0) * 2.54).toFixed(2);
             if(i != (arr.length-1)){
