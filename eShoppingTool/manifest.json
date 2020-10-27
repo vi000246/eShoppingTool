@@ -7,10 +7,10 @@
 
   "browser_action": {
     "default_popup": "index.html",
-    "default_icon": "clock128.png",
+    "default_icon": "calculator.png",
     "icons": {  
-      "128": "clock128.png",
-      "48":"clock48.png" }
+      "128": "calculator.png",
+      "32":"calculator32.png" }
   },
   "permissions": ["tabs","background","https://*/"],
   "background" : {

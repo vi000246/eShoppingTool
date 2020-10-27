@@ -1,5 +1,6 @@
 $(function(){
     getExchangeRate();
+    loadShoesChart();
     //查匯率
     $("#price").keyup(function() {
         calculateExchangeRate();
@@ -77,4 +78,10 @@ function getExchangeRate(){
             console.log('thrownError: ' + thrownError);
         }
        });
+}
+
+function loadShoesChart(){
+    $.getJSON("shoesChart.json", function(json) {
+        console.log(json); // this will show the info it in firebug console
+    });
 }
