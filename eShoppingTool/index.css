@@ -317,6 +317,10 @@ html[dir="rtl"] .fx-pull-flex-right{
     flex-basis:41.66%;
     max-width:41.66%;
 }
+.fx-col-md-50{
+    flex-basis:41.66%;
+    max-width:50%;
+}
 .fx-col-md-6{
     flex-basis:50%;
     max-width:50%;

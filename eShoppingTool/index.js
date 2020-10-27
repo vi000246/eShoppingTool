@@ -29,9 +29,28 @@ function calculateWeight(){
 function calculateLength(){
     var ft = $("#ft").val();
     var inch = $("#inch").val();
-    var answer = (parseFloat(ft)|| 0) * 30.48 + (parseFloat(inch)|| 0) * 2.54;
-    answer = answer.toFixed(2);
-    $("#lengthResult").html(answer);
+    if(inch.indexOf(",")>-1){
+        $("#ft").val("");
+        $("#ft").prop('disabled', true);
+        var arr = inch.split(',');
+        var answer = "";
+        console.log(arr);
+        for (let i = 0; i < arr.length; ++i) {
+            answer += ((parseFloat(arr[i])|| 0) * 2.54).toFixed(2);
+            if(i != (arr.length-1)){
+                answer +=" x ";
+            }
+        }
+
+        $("#lengthResult").html(answer);
+    }else{
+        $("#ft").prop('disabled', false);
+        var answer = (parseFloat(ft)|| 0) * 30.48 + (parseFloat(inch)|| 0) * 2.54;
+        answer = answer.toFixed(2);
+        $("#lengthResult").html(answer);
+    }
+
+    
 }
 
 function calculateExchangeRate(){
