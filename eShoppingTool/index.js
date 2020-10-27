@@ -4,11 +4,24 @@ $(function(){
     $("#price").keyup(function() {
         calculateExchangeRate();
     });
+    //算長度
+    $("#ft,#inch").keyup(function() {
+        calculateLength();
+    });
     //change事件好像監聽不到
     // $("#Currency").on('change', function() { 
     //     calculateExchangeRate();
     // });
 });
+
+function calculateLength(){
+    var ft = $("#ft").val();
+    var inch = $("#inch").val();
+    console.log(parseFloat(ft) + "  " + parseFloat(inch));
+    var answer = (parseFloat(ft)|| 0) * 30.48 + (parseFloat(inch)|| 0) * 2.54;
+    answer = answer.toFixed(2);
+    $("#lengthResult").html(answer);
+}
 
 function calculateExchangeRate(){
     var currency = $("#Currency").val();
@@ -17,7 +30,7 @@ function calculateExchangeRate(){
     console.log(rate+" "+price)
     if(rate && !isNaN(price)){
         var answer = parseFloat(price) * parseFloat(rate);
-        answer = Math.round(answer * 10) / 10;
+        answer = answer.toFixed(2);
         //add comma to answer
         $("#exchangeRateResult").html(answer.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
     }
