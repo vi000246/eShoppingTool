@@ -8,16 +8,26 @@ $(function(){
     $("#ft,#inch").keyup(function() {
         calculateLength();
     });
+    $("#lb,#oz").keyup(function() {
+        calculateWeight();
+    });
     //change事件好像監聽不到
     // $("#Currency").on('change', function() { 
     //     calculateExchangeRate();
     // });
 });
 
+function calculateWeight(){
+    var lb = $("#lb").val();
+    var oz = $("#oz").val();
+    var answer = (parseFloat(lb)|| 0) * 453.6 + (parseFloat(oz)|| 0) * 28.35;
+    answer = answer.toFixed(2);
+    $("#weightResult").html(answer);
+}
+
 function calculateLength(){
     var ft = $("#ft").val();
     var inch = $("#inch").val();
-    console.log(parseFloat(ft) + "  " + parseFloat(inch));
     var answer = (parseFloat(ft)|| 0) * 30.48 + (parseFloat(inch)|| 0) * 2.54;
     answer = answer.toFixed(2);
     $("#lengthResult").html(answer);
